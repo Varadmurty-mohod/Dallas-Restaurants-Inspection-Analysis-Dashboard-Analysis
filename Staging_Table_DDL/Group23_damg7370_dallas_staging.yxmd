@@ -1,0 +1,876 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="Path">C:\Users\Skudli\Downloads\dallas.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>3000</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dallas.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Restaurant Name" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Inspection Type" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Inspection Date" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Inspection Score" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Street Number" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Street Name" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Street Direction" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Street Type" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Street Unit" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Street Address" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Zip Code" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Description - 1" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Points - 1" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Detail - 1" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Memo - 1" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Description - 2" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Points - 2" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Detail - 2" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Memo - 2" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Description - 3" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Points - 3" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Detail - 3" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Memo - 3" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Description - 4" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Points - 4" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Detail - 4" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Memo - 4" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Description - 5" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Points - 5" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Detail - 5" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Memo - 5" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Description - 6" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Points - 6" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Detail - 6" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Memo - 6" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Description - 7" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Points - 7" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Detail - 7" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Memo - 7" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Description - 8" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Points - 8" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Detail - 8" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Memo - 8" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Description - 9" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Points - 9" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Detail - 9" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Memo - 9" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Description - 10" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Points - 10" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Detail - 10" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Memo - 10" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Description - 11" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Points - 11" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Detail - 11" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Memo - 11" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Description - 12" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Points - 12" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Detail - 12" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Memo - 12" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Description - 13" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Points - 13" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Detail - 13" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Memo - 13" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Description - 14" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Points - 14" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Detail - 14" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Memo - 14" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Description - 15" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Points - 15" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Detail - 15" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Memo - 15" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Description - 16" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Points - 16" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Detail - 16" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Memo - 16" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Description - 17" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Points - 17" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Detail - 17" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Memo - 17" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Description - 18" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Points - 18" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Detail - 18" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Memo - 18" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Description - 19" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Points - 19" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Detail - 19" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Memo - 19" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Description - 20" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Points - 20" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Detail - 20" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation  Memo - 20" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Description - 21" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Points - 21" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Detail - 21" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Memo - 21" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Description - 22" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Points - 22" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Detail - 22" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Memo - 22" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Description - 23" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Points - 23" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Detail - 23" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Memo - 23" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Description - 24" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Points - 24" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Detail - 24" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Memo - 24" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Description - 25" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Points - 25" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Detail - 25" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Violation Memo - 25" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Inspection Month" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Inspection Year" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="Last Long Location" size="3000" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_WString" />
+            <Field name="FileName" size="254" source="File: FileName" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="246" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="Restaurant Name" selected="True" />
+            <Field field="Inspection Type" selected="True" />
+            <Field field="Inspection Date" selected="True" />
+            <Field field="Inspection Score" selected="True" />
+            <Field field="Street Number" selected="True" />
+            <Field field="Street Name" selected="True" />
+            <Field field="Street Direction" selected="True" />
+            <Field field="Street Type" selected="True" />
+            <Field field="Street Unit" selected="True" />
+            <Field field="Street Address" selected="True" />
+            <Field field="Zip Code" selected="True" />
+            <Field field="Violation Description - 1" selected="True" />
+            <Field field="Violation Points - 1" selected="True" />
+            <Field field="Violation Detail - 1" selected="True" />
+            <Field field="Violation Memo - 1" selected="True" />
+            <Field field="Violation Description - 2" selected="True" />
+            <Field field="Violation Points - 2" selected="True" />
+            <Field field="Violation Detail - 2" selected="True" />
+            <Field field="Violation Memo - 2" selected="True" />
+            <Field field="Violation Description - 3" selected="True" />
+            <Field field="Violation Points - 3" selected="True" />
+            <Field field="Violation Detail - 3" selected="True" />
+            <Field field="Violation Memo - 3" selected="True" />
+            <Field field="Violation Description - 4" selected="True" />
+            <Field field="Violation Points - 4" selected="True" />
+            <Field field="Violation Detail - 4" selected="True" />
+            <Field field="Violation Memo - 4" selected="True" />
+            <Field field="Violation Description - 5" selected="True" />
+            <Field field="Violation Points - 5" selected="True" />
+            <Field field="Violation Detail - 5" selected="True" />
+            <Field field="Violation Memo - 5" selected="True" />
+            <Field field="Violation Description - 6" selected="True" />
+            <Field field="Violation Points - 6" selected="True" />
+            <Field field="Violation Detail - 6" selected="True" />
+            <Field field="Violation Memo - 6" selected="True" />
+            <Field field="Violation Description - 7" selected="True" />
+            <Field field="Violation Points - 7" selected="True" />
+            <Field field="Violation Detail - 7" selected="True" />
+            <Field field="Violation Memo - 7" selected="True" />
+            <Field field="Violation Description - 8" selected="True" />
+            <Field field="Violation Points - 8" selected="True" />
+            <Field field="Violation Detail - 8" selected="True" />
+            <Field field="Violation Memo - 8" selected="True" />
+            <Field field="Violation Description - 9" selected="True" />
+            <Field field="Violation Points - 9" selected="True" />
+            <Field field="Violation Detail - 9" selected="True" />
+            <Field field="Violation Memo - 9" selected="True" />
+            <Field field="Violation Description - 10" selected="True" />
+            <Field field="Violation Points - 10" selected="True" />
+            <Field field="Violation Detail - 10" selected="True" />
+            <Field field="Violation Memo - 10" selected="True" />
+            <Field field="Violation Description - 11" selected="True" />
+            <Field field="Violation Points - 11" selected="True" />
+            <Field field="Violation Detail - 11" selected="True" />
+            <Field field="Violation Memo - 11" selected="True" />
+            <Field field="Violation Description - 12" selected="True" />
+            <Field field="Violation Points - 12" selected="True" />
+            <Field field="Violation Detail - 12" selected="True" />
+            <Field field="Violation Memo - 12" selected="True" />
+            <Field field="Violation Description - 13" selected="True" />
+            <Field field="Violation Points - 13" selected="True" />
+            <Field field="Violation Detail - 13" selected="True" />
+            <Field field="Violation Memo - 13" selected="True" />
+            <Field field="Violation Description - 14" selected="True" />
+            <Field field="Violation Points - 14" selected="True" />
+            <Field field="Violation Detail - 14" selected="True" />
+            <Field field="Violation Memo - 14" selected="True" />
+            <Field field="Violation Description - 15" selected="True" />
+            <Field field="Violation Points - 15" selected="True" />
+            <Field field="Violation Detail - 15" selected="True" />
+            <Field field="Violation Memo - 15" selected="True" />
+            <Field field="Violation Description - 16" selected="True" />
+            <Field field="Violation Points - 16" selected="True" />
+            <Field field="Violation Detail - 16" selected="True" />
+            <Field field="Violation Memo - 16" selected="True" />
+            <Field field="Violation Description - 17" selected="True" />
+            <Field field="Violation Points - 17" selected="True" />
+            <Field field="Violation Detail - 17" selected="True" />
+            <Field field="Violation Memo - 17" selected="True" />
+            <Field field="Violation Description - 18" selected="True" />
+            <Field field="Violation Points - 18" selected="True" />
+            <Field field="Violation Detail - 18" selected="True" />
+            <Field field="Violation Memo - 18" selected="True" />
+            <Field field="Violation Description - 19" selected="True" />
+            <Field field="Violation Points - 19" selected="True" />
+            <Field field="Violation Detail - 19" selected="True" />
+            <Field field="Violation Memo - 19" selected="True" />
+            <Field field="Violation Description - 20" selected="True" />
+            <Field field="Violation Points - 20" selected="True" />
+            <Field field="Violation Detail - 20" selected="True" />
+            <Field field="Violation  Memo - 20" selected="True" />
+            <Field field="Violation Description - 21" selected="True" />
+            <Field field="Violation Points - 21" selected="True" />
+            <Field field="Violation Detail - 21" selected="True" />
+            <Field field="Violation Memo - 21" selected="True" />
+            <Field field="Violation Description - 22" selected="True" />
+            <Field field="Violation Points - 22" selected="True" />
+            <Field field="Violation Detail - 22" selected="True" />
+            <Field field="Violation Memo - 22" selected="True" />
+            <Field field="Violation Description - 23" selected="True" />
+            <Field field="Violation Points - 23" selected="True" />
+            <Field field="Violation Detail - 23" selected="True" />
+            <Field field="Violation Memo - 23" selected="True" />
+            <Field field="Violation Description - 24" selected="True" />
+            <Field field="Violation Points - 24" selected="True" />
+            <Field field="Violation Detail - 24" selected="True" />
+            <Field field="Violation Memo - 24" selected="True" />
+            <Field field="Violation Description - 25" selected="True" />
+            <Field field="Violation Points - 25" selected="True" />
+            <Field field="Violation Detail - 25" selected="True" />
+            <Field field="Violation Memo - 25" selected="True" />
+            <Field field="Inspection Month" selected="True" />
+            <Field field="Inspection Year" selected="True" />
+            <Field field="Last Long Location" selected="True" />
+            <Field field="FileName" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Restaurant Name" size="63" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_String" />
+            <Field name="Inspection Type" size="7" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="String" />
+            <Field name="Inspection Date" size="10" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="String" />
+            <Field name="Inspection Score" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="Byte" />
+            <Field name="Street Number" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="Int16" />
+            <Field name="Street Name" size="16" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_String" />
+            <Field name="Street Direction" size="1" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="String" />
+            <Field name="Street Type" size="4" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="String" />
+            <Field name="Street Unit" size="5" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="String" />
+            <Field name="Street Address" size="29" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_String" />
+            <Field name="Zip Code" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="Int32" />
+            <Field name="Violation Description - 1" size="100" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_String" />
+            <Field name="Violation Points - 1" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="Byte" />
+            <Field name="Violation Detail - 1" size="829" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_String" />
+            <Field name="Violation Memo - 1" size="207" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_String" />
+            <Field name="Violation Description - 2" size="100" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_String" />
+            <Field name="Violation Points - 2" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="Byte" />
+            <Field name="Violation Detail - 2" size="778" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_String" />
+            <Field name="Violation Memo - 2" size="212" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_String" />
+            <Field name="Violation Description - 3" size="100" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_String" />
+            <Field name="Violation Points - 3" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="Byte" />
+            <Field name="Violation Detail - 3" size="742" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_String" />
+            <Field name="Violation Memo - 3" size="845" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_String" />
+            <Field name="Violation Description - 4" size="100" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_String" />
+            <Field name="Violation Points - 4" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="Byte" />
+            <Field name="Violation Detail - 4" size="829" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_String" />
+            <Field name="Violation Memo - 4" size="845" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_String" />
+            <Field name="Violation Description - 5" size="97" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_String" />
+            <Field name="Violation Points - 5" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="Byte" />
+            <Field name="Violation Detail - 5" size="675" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_String" />
+            <Field name="Violation Memo - 5" size="82" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_String" />
+            <Field name="Violation Description - 6" size="100" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_String" />
+            <Field name="Violation Points - 6" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="Byte" />
+            <Field name="Violation Detail - 6" size="473" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_String" />
+            <Field name="Violation Memo - 6" size="247" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_String" />
+            <Field name="Violation Description - 7" size="59" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_String" />
+            <Field name="Violation Points - 7" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="Byte" />
+            <Field name="Violation Detail - 7" size="829" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_String" />
+            <Field name="Violation Memo - 7" size="361" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_String" />
+            <Field name="Violation Description - 8" size="100" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_String" />
+            <Field name="Violation Points - 8" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="Byte" />
+            <Field name="Violation Detail - 8" size="493" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_String" />
+            <Field name="Violation Memo - 8" size="486" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_String" />
+            <Field name="Violation Description - 9" size="66" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_String" />
+            <Field name="Violation Points - 9" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="Byte" />
+            <Field name="Violation Detail - 9" size="448" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_String" />
+            <Field name="Violation Memo - 9" size="73" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_String" />
+            <Field name="Violation Description - 10" size="97" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_String" />
+            <Field name="Violation Points - 10" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="Byte" />
+            <Field name="Violation Detail - 10" size="545" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_String" />
+            <Field name="Violation Memo - 10" size="109" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_String" />
+            <Field name="Violation Description - 11" size="37" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_String" />
+            <Field name="Violation Points - 11" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="Byte" />
+            <Field name="Violation Detail - 11" size="493" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_String" />
+            <Field name="Violation Memo - 11" size="843" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_String" />
+            <Field name="Violation Description - 12" size="65" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_String" />
+            <Field name="Violation Points - 12" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="Byte" />
+            <Field name="Violation Detail - 12" size="507" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_String" />
+            <Field name="Violation Memo - 12" size="38" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_String" />
+            <Field name="Violation Description - 13" size="42" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_String" />
+            <Field name="Violation Points - 13" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="Byte" />
+            <Field name="Violation Detail - 13" size="815" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_String" />
+            <Field name="Violation Memo - 13" size="31" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_String" />
+            <Field name="Violation Description - 14" size="23" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_String" />
+            <Field name="Violation Points - 14" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="Byte" />
+            <Field name="Violation Detail - 14" size="271" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_String" />
+            <Field name="Violation Memo - 14" size="27" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_String" />
+            <Field name="Violation Description - 15" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="Bool" />
+            <Field name="Violation Points - 15" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="Bool" />
+            <Field name="Violation Detail - 15" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="Bool" />
+            <Field name="Violation Memo - 15" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="Bool" />
+            <Field name="Violation Description - 16" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="Bool" />
+            <Field name="Violation Points - 16" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="Bool" />
+            <Field name="Violation Detail - 16" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="Bool" />
+            <Field name="Violation Memo - 16" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="Bool" />
+            <Field name="Violation Description - 17" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="Bool" />
+            <Field name="Violation Points - 17" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="Bool" />
+            <Field name="Violation Detail - 17" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="Bool" />
+            <Field name="Violation Memo - 17" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="Bool" />
+            <Field name="Violation Description - 18" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="Bool" />
+            <Field name="Violation Points - 18" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="Bool" />
+            <Field name="Violation Detail - 18" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="Bool" />
+            <Field name="Violation Memo - 18" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="Bool" />
+            <Field name="Violation Description - 19" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="Bool" />
+            <Field name="Violation Points - 19" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="Bool" />
+            <Field name="Violation Detail - 19" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="Bool" />
+            <Field name="Violation Memo - 19" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="Bool" />
+            <Field name="Violation Description - 20" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="Bool" />
+            <Field name="Violation Points - 20" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="Bool" />
+            <Field name="Violation Detail - 20" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="Bool" />
+            <Field name="Violation  Memo - 20" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="Bool" />
+            <Field name="Violation Description - 21" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="Bool" />
+            <Field name="Violation Points - 21" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="Bool" />
+            <Field name="Violation Detail - 21" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="Bool" />
+            <Field name="Violation Memo - 21" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="Bool" />
+            <Field name="Violation Description - 22" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="Bool" />
+            <Field name="Violation Points - 22" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="Bool" />
+            <Field name="Violation Detail - 22" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="Bool" />
+            <Field name="Violation Memo - 22" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="Bool" />
+            <Field name="Violation Description - 23" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="Bool" />
+            <Field name="Violation Points - 23" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="Bool" />
+            <Field name="Violation Detail - 23" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="Bool" />
+            <Field name="Violation Memo - 23" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="Bool" />
+            <Field name="Violation Description - 24" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="Bool" />
+            <Field name="Violation Points - 24" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="Bool" />
+            <Field name="Violation Detail - 24" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="Bool" />
+            <Field name="Violation Memo - 24" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="Bool" />
+            <Field name="Violation Description - 25" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="Bool" />
+            <Field name="Violation Points - 25" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="Bool" />
+            <Field name="Violation Detail - 25" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="Bool" />
+            <Field name="Violation Memo - 25" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="Bool" />
+            <Field name="Inspection Month" size="6" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="String" />
+            <Field name="Inspection Year" size="6" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="String" />
+            <Field name="Last Long Location" size="52" source="File: C:\Users\Skudli\Downloads\dallas.csv" type="V_String" />
+            <Field name="FileName" size="36" source="File: FileName" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="438" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="FileName" selected="True" size="16384" />
+            <SelectField field="DI_CreateDate" selected="True" type="DateTime" size="19" />
+            <SelectField field="INSPECTION DATE" selected="True" type="Date" size="10" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="342" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="ReplaceChar([Inspection Date], '/', '-')" field="Inspection Date" size="10" type="String" />
+            <FormulaField expression="DateTimeParse([Inspection Date], &quot;%m/%d/%y&quot;)" field="Inspection Date" size="10" type="String" />
+            <FormulaField expression="DateTimeNow()" field="DI_CreateDate" size="1073741823" type="V_WString" />
+            <FormulaField expression="FileGetFileName([FileName])" field="DI_WorkflowFileName" size="1073741823" type="V_WString" />
+            <FormulaField expression="[FileName]" field="DI_WorkflowDirectory" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Inspection Date = ReplaceChar([Inspection Date], '/', '-')
+Inspection Date = Dat...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="714" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Skudli\AppData\Local\Temp\Engine_95740_d8a70b851d5a824786f3fd029131b08a_\Engine_95740_76f0997ccbe76f4ca4163f3766fe145a~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="294" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Skudli\AppData\Local\Temp\Engine_95740_d8a70b851d5a824786f3fd029131b08a_\Engine_95740_ad7b588ca845e74880418a2c43697c74~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="534" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>InspectionID</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="269" y="377" width="217" height="133" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Container 29</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="8">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BasicDataProfile.BasicDataProfile">
+            <Position x="294" y="426" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Limit_UniqueCount>10000</Limit_UniqueCount>
+              <Limit_UniqueValuesSize>1000</Limit_UniqueValuesSize>
+              <IsMetric value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBasicDataProfile" />
+        </Node>
+        <Node ToolID="9">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="402" y="426" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\Skudli\AppData\Local\Temp\Engine_84408_3dbe4a268090f840a594d2bd79b9ce46_\Engine_84408_a2f76fbe36893346a9bdfe748f060759~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="641" y="401" width="277" height="229" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Container 28</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="11">
+          <GuiSettings>
+            <Position x="666" y="498" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Select Fields">Restaurant Name=True,Inspection Type=True,Inspection Date=True,Inspection Score=True,Street Number=True,Street Name=True,Street Direction=True,Street Type=True,Street Unit=True,Street Address=True,Zip Code=True,Violation Description - 1=True,Violation Points - 1=True,Violation Detail - 1=True,Violation Memo - 1=True,Violation Description - 2=True,Violation Points - 2=True,Violation Detail - 2=True,Violation Memo - 2=True,Violation Description - 3=True,Violation Points - 3=True,Violation Detail - 3=True,Violation Memo - 3=True,Violation Description - 4=True,Violation Points - 4=True,Violation Detail - 4=True,Violation Memo - 4=True,Violation Description - 5=True,Violation Points - 5=True,Violation Detail - 5=True,Violation Memo - 5=True,Violation Description - 6=True,Violation Points - 6=True,Violation Detail - 6=True,Violation Memo - 6=True,Violation Description - 7=True,Violation Points - 7=True,Violation Detail - 7=True,Violation Memo - 7=True,Violation Description - 8=True,Violation Points - 8=True,Violation Detail - 8=True,Violation Memo - 8=True,Violation Description - 9=True,Violation Points - 9=True,Violation Detail - 9=True,Violation Memo - 9=True,Violation Description - 10=True,Violation Points - 10=True,Violation Detail - 10=True,Violation Memo - 10=True,Violation Description - 11=True,Violation Points - 11=True,Violation Detail - 11=True,Violation Memo - 11=True,Violation Description - 12=True,Violation Points - 12=True,Violation Detail - 12=True,Violation Memo - 12=True,Violation Description - 13=True,Violation Points - 13=True,Violation Detail - 13=True,Violation Memo - 13=True,Violation Description - 14=True,Violation Points - 14=True,Violation Detail - 14=True,Violation Memo - 14=True,Violation Description - 15=True,Violation Points - 15=True,Violation Detail - 15=True,Violation Memo - 15=True,Violation Description - 16=True,Violation Points - 16=True,Violation Detail - 16=True,Violation Memo - 16=True,Violation Description - 17=True,Violation Points - 17=True,Violation Detail - 17=True,Violation Memo - 17=True,Violation Description - 18=True,Violation Points - 18=True,Violation Detail - 18=True,Violation Memo - 18=True,Violation Description - 19=True,Violation Points - 19=True,Violation Detail - 19=True,Violation Memo - 19=True,Violation Description - 20=True,Violation Points - 20=True,Violation Detail - 20=True,Violation  Memo - 20=True,Violation Description - 21=True,Violation Points - 21=True,Violation Detail - 21=True,Violation Memo - 21=True,Violation Description - 22=True,Violation Points - 22=True,Violation Detail - 22=True,Violation Memo - 22=True,Violation Description - 23=True,Violation Points - 23=True,Violation Detail - 23=True,Violation Memo - 23=True,Violation Description - 24=True,Violation Points - 24=True,Violation Detail - 24=True,Violation Memo - 24=True,Violation Description - 25=True,Violation Points - 25=True,Violation Detail - 25=True,Violation Memo - 25=True,Inspection Month=True,Inspection Year=True,Lat Long Location=True,FileName=True</Value>
+              <Value name="Sample Data">False</Value>
+              <Value name="Number">True</Value>
+              <Value name="NNumber">5000</Value>
+              <Value name="Percent">False</Value>
+              <Value name="NPercent">10</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+        </Node>
+        <Node ToolID="12">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="774" y="450" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\Skudli\AppData\Local\Temp\Engine_84408_3dbe4a268090f840a594d2bd79b9ce46_\Engine_84408_40236979e8d2cc4791699550076e5de1~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="13">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="774" y="546" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\Skudli\AppData\Local\Temp\Engine_84408_3dbe4a268090f840a594d2bd79b9ce46_\Engine_84408_84654cf14afe144884dfff8754e837a2~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="14">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="834" y="498" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\Skudli\AppData\Local\Temp\Engine_84408_3dbe4a268090f840a594d2bd79b9ce46_\Engine_84408_f797ed945ddb20478bfd027e49702f97~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="713" y="149" width="156" height="195" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>staging</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="16">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="738" y="198" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="23">aka:nyc-sql-localhost|||nyc.StagingTable</File>
+              <Passwords />
+              <CachedCosmeticName />
+              <Disable>False</Disable>
+              <FormatSpecificOptions>
+                <TransactionMessages>False</TransactionMessages>
+                <Geometry>True</Geometry>
+                <Projection />
+                <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                <SpatialObjSize>8000</SpatialObjSize>
+                <OutputOption>Overwrite</OutputOption>
+                <PostSQL />
+                <TransactionSize>10000</TransactionSize>
+                <TableStyle>Quoted</TableStyle>
+                <PreSQL />
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>aka:nyc-sql-localhost
+Query=nyc.StagingTable</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="11" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Interactive" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Reports" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>sudarshan_damg7370_dallas_staging</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="0505d997-f57d-402d-93b6-1e2ef7c42759" />
+      <Telemetry>
+        <PreviousWorkflowId value="276eeedc-9fa9-45d6-901c-c60ec83d8d3e" />
+        <OriginWorkflowId value="15ac0c5c-c8c0-4bba-bf08-9735d65942b1" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
